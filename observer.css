@@ -1,0 +1,44 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+section{
+  height: 100vh;
+  width: 100%;
+  padding: 6em;
+  box-sizing: border-box;
+  color: white;
+}
+h1{
+  font-size: 5em;
+}
+
+p{
+  width: 50%
+  opacity: 0.5;
+  line-height: 1.5;
+  font-size: 1.5;
+}
+
+section:nth-of-type(1){background: rgb(29, 167, 103);}
+section:nth-of-type(2){background: rgb(37, 123, 180);}
+section:nth-of-type(3){background: rgb(111, 38, 179);}
+section:nth-of-type(4){background: rgb(142, 140, 60);}
+section:nth-of-type(5){background: rgb(184, 100, 130);}
+section:nth-of-type(6){background: rgb(230, 70, 39);}
+
+/* Animation 1 */
+[data-scroll]{
+  transition: all 2s;
+}
+
+[data-scroll="in"]{
+  opacity: 1;
+  transform: translateX(0);
+}
+[data-scroll="out"]{
+  opacity: 0;
+  transform: translateX(-200px);
+}
