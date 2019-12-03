@@ -1,6 +1,7 @@
 body, html{
   margin: 0;
   padding: 0;
+  background-color: black;
   font-family: 'Montserrat';
 }
 
@@ -11,6 +12,7 @@ section{
   box-sizing: border-box;
   color: white;
 }
+
 h1{
   font-size: 5em;
 }
